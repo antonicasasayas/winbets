@@ -10,7 +10,9 @@ export default function Header() {
 	return (
 		<div >
 			{isConnected ? (
-				<div>Connected to {ensName ?? address}</div>
+				<div>Connected <span className="hidden md:inline">
+					to {ensName ?? address}
+					</span> </div>
 			) : (
 				<button onClick={() => connect()}>Connect Wallet</button>
 			)}

@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 const Sidebar = () => {
 	return (
-		<div className="fixed mt-20 h-screen p-4 w-56 bg-sidebar">
+		<div className="fixed hidden md:block mt-20 h-screen p-4 w-56 bg-sidebar">
 			<div className="bg-gray-900 box">$0.00 WINB</div>
 			<div className="flex flex-col gap-y-2 mt-4">
 				<span className="font-bold text-xs text-gray-500">

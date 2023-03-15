@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
 		<div className={`w-screen ${play.className}  `}>
 			<Navbar />
 			<Sidebar />
-			<main className="pt-20 pl-56">{children}</main>
+			<main className="md:pt-20 md:pl-56">{children}</main>
 			<Footer />
 		</div>
 	);

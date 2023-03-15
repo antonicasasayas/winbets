@@ -55,6 +55,20 @@ body {
     left: 30px;
  }
 }
+.roulette-wheel .ball {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background: #fff radial-gradient(circle at 5px 5px, #fff, #444);
+  box-shadow: 1px 1px 4px #000;
+  transform: translateY(-163px);
+  top: 50%;
+  left: 50%;
+  margin: -7px;
+  will-change: transform;
+}
+
 .roulette-wheel .layer-2, .roulette-wheel .layer-3, .roulette-wheel .layer-4, .roulette-wheel .layer-5, .ball-container {
   position: absolute;
   top: 0;
@@ -63,6 +77,25 @@ body {
   height: 100%;
   background-size: 475px 475px;
 }
+@media screen and (max-width: 500px) {
+  .roulette-wheel .layer-2, .roulette-wheel .layer-3, .roulette-wheel .layer-4, .roulette-wheel .layer-5, .ball-container {
+   
+    background-size: 300px 300px;
+  }
+  .roulette-wheel{
+    height: 300px;
+    width: 300px;
+    background-size: 300px 300px;
+    shape-outside: circle(150px);
+
+  }
+
+  .roulette-wheel .ball{
+    transform: translateY(-116px);
+  }
+}
+
+
 .roulette-wheel .layer-2, .roulette-wheel .layer-4, .ball-container {
   will-change: transform;
 }
@@ -87,19 +120,7 @@ body {
   cursor: pointer;
   fill: transparent;
 }
-.roulette-wheel .ball {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  border-radius: 7px;
-  background: #fff radial-gradient(circle at 5px 5px, #fff, #444);
-  box-shadow: 1px 1px 4px #000;
-  transform: translateY(-116px);
-  top: 50%;
-  left: 50%;
-  margin: -7px;
-  will-change: transform;
-}
+
 
 .container-first {
 	display: flex;

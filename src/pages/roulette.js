@@ -271,7 +271,7 @@ const Roulette = () => {
 
 	return (
 		<div className="pt-12 pl-6 pr-20 flex-col flex pb-4" id="app">
-			<div className="flex items-center w-full mt-12  justify-center gap-x-12">
+			<div className="flex flex-col-reverse gap-y-6 md:flex-row items-center w-full mt-12  justify-center gap-x-12">
 				<div className="flex flex-col w-48 gap-y-4">
 					<span>House Edge: 2.70%</span>
 					<span>
@@ -300,7 +300,7 @@ const Roulette = () => {
 					</button>
 				</div>
 
-				<div className="flex gap-x-12  items-center justify-center">
+				<div className="flex flex-col-reverse md:flex-row gap-x-12  items-center justify-center">
 					<div className="h-36 w-36 flex rounded-xl  justify-center items-center bg-background border border-primary">
 						<span className=" text-center   text-6xl font-bold text-primary">
 							{showWinningNumber && winningNumber}
@@ -324,9 +324,7 @@ const Roulette = () => {
 							>
 								<div
 									className="ball"
-									style={{
-										transform: "translate(0, -163.221px)",
-									}}
+									
 								/>
 							</div>
 						</div>

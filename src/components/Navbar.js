@@ -13,7 +13,7 @@ const Navbar = () => {
 					width={150}
 				/>
 			</Link>
-			<div className="flex gap-x-4 absolute top-4 left-1/2 right-1/2 items-center font-bold text-sm">
+			<div className=" gap-x-4 hidden md:flex absolute top-4 left-1/2 right-1/2 items-center font-bold text-sm">
 				<button className="bg-primary box text-secondary">
 					CASHIER
 				</button>
