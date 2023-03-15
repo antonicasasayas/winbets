@@ -9,11 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@api3/airnode-protocol": "^0.10.0",
     "@next/font": "^13.1.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@web3uikit/core": "^0.2.48",
+    "@web3uikit/icons": "^0.3.0",
+    "@web3uikit/web3": "^0.2.2",
     "animejs": "^3.2.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.7",
+    "hardhat-deploy": "^0.11.25",
+    "matter-js": "^0.19.0",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "wagmi": "^0.12.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
+import Header from "./Header";
 import { Play } from "@next/font/google";
 
 const play = Play({

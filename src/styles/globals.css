@@ -24,7 +24,7 @@ body {
   padding: 0;
 }
 #app {
-  background-image: url('/felt.png'), -webkit-radial-gradient(50% 40%, circle farthest-corner, #527c14, #243a0a);
+  /* background-image: url('/felt.png'), -webkit-radial-gradient(50% 40%, circle farthest-corner, #527c14, #243a0a); */
   contain: layout style;
   overflow: visible;
 }
@@ -211,4 +211,39 @@ body {
 	background-color: black;
 	border: solid white;
 	transform: rotate(45deg);
+}
+
+.connectWalletButton > div > button{
+  background-color: black !important;
+  border-radius: 0;
+  border: 1px solid white;
+}
+.sc-gKXOVf{
+  background-color: #0D1117 !important;
+  border: 1px solid white !important;
+}
+.hULrqk {
+  color: white !important;
+  
+}
+.sc-jSMfEi, .sc-iBkjds{
+  background-color: #0D1117 !important;
+}
+.ceKjdl{
+  background-color: #0D1117 !important;
+}
+.hjXSSb, .kVtssl{
+  color: white !important;
+}
+
+.fyDjZN:hover{
+  background-color: #1e2634 !important;
+}
+.cSKBpC{
+  background-color: #1e2634 !important;
+}
+
+.cSKBpC svg{
+  color: white !important;
+
 }
